@@ -11,6 +11,7 @@ namespace HashTable
             var massiveOfValue = new char[10000];
             for (int i = 0; i < 10000; i++)
                 massiveOfValue[i] = (char)rand.Next(0x00A1, 0x27B2);
+
             foreach (var e in massiveOfValue)
             {
                 hashTable.PutPair(j++, e);
